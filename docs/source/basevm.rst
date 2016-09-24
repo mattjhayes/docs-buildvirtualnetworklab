@@ -27,7 +27,24 @@ Do the same process to add the ISO for the Guest Additions.
 On Windows it is located in
 C:\Program Files\Oracle\VirtualBox\VBoxGuestAdditions.iso
 
-UNDER CONSTRUCTION
+As above, there should now be two ISO files associated.
+
+Start the VM and install Ubuntu as per the defaults (or your own preferences!)
+
+****************************
+Install VirtualBox Additions
+****************************
+
+Once the build is completed and the guest is running, log in and start a
+terminal window (CTRL+ALT+T). Install the VirtualBox additions for
+improved host-guest integration:
+
+.. code-block:: text
+
+  cd /media
+
+Look for the appropriate subdirectories that contain the correct additions
+version. Example:
 
 
 
